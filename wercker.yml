@@ -1,0 +1,12 @@
+box: flenter/android
+build:
+  steps:
+    - script:
+        name: run gradle
+        code: |
+          gradle -v
+          gradle --refresh-dependencies --rerun-tasks --full-stacktrace build -q
+    - script:
+        name: show build result
+        code: |
+          ls -la Hello/build/apk
