@@ -24,4 +24,4 @@ build:
     - script:
         name: show build result
         code: |
-          ls -la Hello/build/apk
+          ls -la GettingStarted/build/apk
