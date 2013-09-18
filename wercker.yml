@@ -2,6 +2,12 @@ box: flenter/android
 build:
   steps:
     - script:
+        name: update sdk
+        code: |
+          cd $ANDROID_HOME
+          expect /pipeline/build/android-update.exp
+          cd $WERCKER_SOURCE_DIR
+    - script:
         name: run gradle
         code: |
           gradle -v
