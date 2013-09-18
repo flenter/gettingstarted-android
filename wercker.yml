@@ -4,11 +4,11 @@ build:
     - script:
         name: install build tools
         code: |
-            export ANDROID_BUILD_TOOLS="17.0.0"
+            export ANDROID_BUILD_TOOLS="17"
             wget https://dl-ssl.google.com/android/repository/build-tools_r${ANDROID_BUILD_TOOLS}-linux.zip
             unzip build-tools_r${ANDROID_BUILD_TOOLS}-linux.zip -d $ANDROID_HOME
             mkdir -p $ANDROID_HOME/build-tools/
-            mv $ANDROID_HOME/android-4.3 $ANDROID_HOME/build-tools/${ANDROID_BUILD_TOOLS}
+            mv $ANDROID_HOME/android-4.2.2 $ANDROID_HOME/build-tools/${ANDROID_BUILD_TOOLS}
 
     - script:
         name: update sdk
