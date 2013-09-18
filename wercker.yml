@@ -6,9 +6,9 @@ build:
         name: show base information
         code: |
           gradle -v
-          export ANDROID_HOME
-          export ANDROID_BUILD_TOOLS
-          export ANDROID_UPDATE_FILTER
+          echo $ANDROID_HOME
+          echo $ANDROID_BUILD_TOOLS
+          echo $ANDROID_UPDATE_FILTER
     # A step that executes `gradle build` command
     - script:
         name: run gradle
