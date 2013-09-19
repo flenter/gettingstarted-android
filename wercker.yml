@@ -16,7 +16,7 @@ build:
         code: |
           gradle --refresh-dependencies --rerun-tasks --full-stacktrace build -q
 
-  aftersteps:
+  after-steps:
     # Show the build results
     - script:
         name: show build result
