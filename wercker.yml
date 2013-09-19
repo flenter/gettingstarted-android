@@ -14,7 +14,8 @@ build:
     - script:
         name: run gradle
         code: |
-          gradle --refresh-dependencies --rerun-tasks --full-stacktrace build -q
+          gradle --full-stacktrace build -q --project-cache-dir=$WERCKER_CACHE_DIR
+
 
   after-steps:
     # Show the build results
