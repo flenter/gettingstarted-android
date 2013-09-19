@@ -23,4 +23,3 @@ build:
         name: show build result
         code: |
           ls -la GettingStarted/build/apk/
-
