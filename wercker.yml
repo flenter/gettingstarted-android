@@ -10,6 +10,10 @@ build:
           echo ANDROID_HOME
           echo ANDROID_BUILD_TOOLS
           echo ANDROID_UPDATE_FILTER
+    - script:
+        name: gradle robolectric
+        code: |
+          gradle --fullstacktrace -q --project-cache-dir=$WERCKER_CACHE_DIR robolectric
     # A step that executes `gradle build` command
     - script:
         name: run gradle
