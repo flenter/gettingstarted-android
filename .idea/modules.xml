@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GettingStarted/GettingStarted.iml" filepath="$PROJECT_DIR$/GettingStarted/GettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/GettingStartedProject.iml" filepath="$PROJECT_DIR$/GettingStartedProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/werckerTest/werckerTest.iml" filepath="$PROJECT_DIR$/werckerTest/werckerTest.iml" />
     </modules>
   </component>
 </project>

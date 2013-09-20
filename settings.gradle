@@ -1,1 +1,1 @@
-include ':GettingStarted'
+include ':GettingStarted', ':test', ':werckerTest', ':gettingstarted'
