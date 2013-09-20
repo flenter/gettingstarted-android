@@ -24,6 +24,5 @@ public class MainActivityTest {
         MainActivity activity;
         activity = (MainActivity) Robolectric.buildActivity(MainActivity.class).create().get();
 
-
     }
 }
